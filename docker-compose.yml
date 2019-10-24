@@ -1,0 +1,8 @@
+version: "3.6"
+
+services:
+  docker-openjdk:
+    build: .
+    image: mattipaksula/openjdk:ubuntu1804
+    volumes:
+      - ./app:/app
